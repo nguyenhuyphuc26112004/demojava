@@ -9,6 +9,6 @@ public class tinhtongcacsonguyen {
             number = scanner.nextInt();
             sum+=number;
         }while(sum<100);
-        System.out.println("tong cac chu so la: " + sum);
+        System.out.println("tong cac so nguyuen vua nhap: " + sum);
     }
 }
