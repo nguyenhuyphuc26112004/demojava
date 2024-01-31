@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class timsonhonhat {
+public class slide35 {
     public static void main(String[] args) {
         int firstNumber , secondNumber;
         Scanner scanner = new Scanner(System.in);
@@ -11,6 +11,6 @@ public class timsonhonhat {
         int minNumber = firstNumber;
         if(firstNumber > secondNumber)
             minNumber = secondNumber;
-        System.out.println("so nho nhat trong hai so " + firstNumber + " va " + secondNumber + "la "+ minNumber);    
+        System.out.println("so nho nhat trong hai so " + firstNumber + " va " + secondNumber + " la "+ minNumber);    
     }
 }
