@@ -1,12 +1,21 @@
+import shapes.hinhchunhat;
+import shapes.hinhtron;
+
 public class App {
     public static void main(String[] args) throws Exception {
-       nhanvien nv = new nhanvien();
-       nv.nhaphoten();
-       nv.nhapgioitinh();
-       nv.nhapchucvu();
-       nv.nhapnamsinh();
-       nv.tinhTuoi();
-       nv.inthongtin();
+       hinhchunhat hcn = new hinhchunhat();
+       hcn.nhapThongTin();
+       hcn.tinhchuvi();
+       hcn.tinhdientich();
+       hcn.InThongTin();
 
+       System.out.println("\n");
+
+       hinhtron ht = new hinhtron();
+       ht.nhapbankinh();
+       ht.tinhchuvi();
+       ht.tinhdientich();
+       ht.InThongTin();
+       
     }
 }
