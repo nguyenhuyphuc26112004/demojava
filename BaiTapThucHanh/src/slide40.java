@@ -19,5 +19,6 @@ public class slide40 {
             break;
             default:System.out.println("so ngay");
         }
+    scanner.close();
     }
 }

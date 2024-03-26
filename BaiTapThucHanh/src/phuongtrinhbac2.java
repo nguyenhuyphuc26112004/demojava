@@ -28,8 +28,10 @@ public class phuongtrinhbac2 {
             else{
                 System.out.println("phuong trinh vo nghiem");
             }
-            }
         }
+        sc.close();    
+        
+    }
 
         
     }

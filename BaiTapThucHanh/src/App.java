@@ -1,21 +1,47 @@
-import shapes.hinhchunhat;
-import shapes.hinhtron;
+
+
+import HinhHoc.hinhchunhat;
+import HinhHoc.hinhtron;
+import HinhHoc.hinhtru;
+import HinhHoc.hinhvuong;
 
 public class App {
-    public static void main(String[] args) throws Exception {
-       hinhchunhat hcn = new hinhchunhat();
-       hcn.nhapThongTin();
-       hcn.tinhchuvi();
-       hcn.tinhdientich();
-       hcn.InThongTin();
+    public static void main(String[] args){
+        hinhtron htr = new hinhtron();
+        htr.xuatten();
+        htr.nhapbankinh();
+        htr.tinhchuvi();
+        htr.tinhdientich();
+        htr.inchuvi();
+        htr.inDientich();
 
-       System.out.println("\n");
+        hinhtru htru = new hinhtru();
+        htru.xuatten();
+        htru.nhapbankinh();
+        htru.nhapchieucao();
+        htru.tinhThetich();
+        htru.inThetich();
 
-       hinhtron ht = new hinhtron();
-       ht.nhapbankinh();
-       ht.tinhchuvi();
-       ht.tinhdientich();
-       ht.InThongTin();
-       
+        hinhchunhat hcn = new hinhchunhat();
+        hcn.xuatten();
+        hcn.nhapchieudai();
+        hcn.nhapchieurong();
+        hcn.tinhchuvi();
+        hcn.tinhdientich();
+        hcn.inchuvi();
+        hcn.inDientich();
+
+        hinhvuong hv = new hinhvuong();
+        hv.xuatten();
+        hv.nhapcanh();
+        hv.tinhchuvi();
+        hv.tinhdientich();
+        hv.inchuvi();
+        hv.inDientich();
+
+        
+    
     }
 }
+
+       

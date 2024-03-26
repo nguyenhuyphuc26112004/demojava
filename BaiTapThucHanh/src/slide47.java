@@ -10,5 +10,6 @@ public class slide47 {
             sum+=number;
         }while(sum<100);
         System.out.println("tong cac so nguyuen vua nhap: " + sum);
+        scanner.close();
     }
 }

@@ -12,6 +12,6 @@ public class slide90 {
             kytu = chuoi.charAt(i);
             System.out.println(kytu);
         }
-
+        scanner.close();
     }
 }

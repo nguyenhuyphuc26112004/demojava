@@ -1,13 +1,12 @@
-package shapes;
+package HinhHoc;
 
 import java.util.Scanner;
 
-public class hinhtron {
-    public final float PI = 3.14f;
+public class hinhtron extends hinhhoc{
     public float r;
-    public float chuvi;
-    public float dientich;
-
+    public hinhtron(){
+        ten = "Hinh Tron";
+    }
     public void nhapbankinh(){
         Scanner sc = new Scanner(System.in);
         System.out.println("R = ");
@@ -20,9 +19,4 @@ public class hinhtron {
     public void tinhdientich(){
         dientich = PI * r * r;
     }
-    public void InThongTin(){
-        System.out.println("Chu Vi: " + chuvi);
-        System.out.println("Dien Tich: " + dientich);
-    }
-    
 }

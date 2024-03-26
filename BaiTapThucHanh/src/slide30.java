@@ -11,5 +11,6 @@ public class slide30 {
             n/=10;
         }
         System.out.println("tong la :" + s);
+        sc.close();
     }
 }

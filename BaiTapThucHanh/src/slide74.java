@@ -20,5 +20,6 @@ public class slide74 {
             tong = tong + A[i];
         } 
         System.out.println("tong: " +tong);    
+        scanner.close();
     }
 }

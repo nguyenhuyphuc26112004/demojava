@@ -12,5 +12,6 @@ public class slide35 {
         if(firstNumber > secondNumber)
             minNumber = secondNumber;
         System.out.println("so nho nhat trong hai so " + firstNumber + " va " + secondNumber + " la "+ minNumber);    
+        scanner.close();
     }
 }

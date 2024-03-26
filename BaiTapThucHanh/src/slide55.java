@@ -10,5 +10,6 @@ public class slide55 {
             continue;
         System.out.println(i);
         }
+        scanner.close();   
     }
 }

@@ -23,5 +23,6 @@ public class slide81 {
             }
         }
         System.out.println("phan tu lon nhat trong ma tran la: " + max);
+        scanner.close();
     }
 }

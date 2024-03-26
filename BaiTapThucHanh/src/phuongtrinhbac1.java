@@ -21,7 +21,7 @@ public class phuongtrinhbac1 {
             System.out.println("phuong trinh co nghiem la: " + x1 );
         }
 
-
+        sc.close();
     }
     
 }

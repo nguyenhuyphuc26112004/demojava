@@ -2,7 +2,7 @@ package shapes;
 
 import java.util.Scanner;
 
-public class hinhchunhat {
+public class hinhchunhat{
     public float dai;
     public float rong;
     public float chuvi;
@@ -14,6 +14,7 @@ public class hinhchunhat {
         dai = sc.nextFloat();
         System.out.println("Rong =");
         rong = sc.nextFloat();
+        sc.close();
     }
     public void tinhchuvi(){
         chuvi = 2 * (dai + rong);
