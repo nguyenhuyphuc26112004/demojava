@@ -1,23 +1,19 @@
 package HinhHoc;
 
-import java.util.Scanner;
-
 public class hinhhoc {
     public final float PI = 3.14f;
-    public float chuvi,thetich,dientich;
+    public float chuvi,dientich,thetich;
     public String ten;
     public void xuatten(){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("\n" +ten+ "\n");
-        sc.close();
+        System.out.println("\n" +ten);
     }
     public void inchuvi(){
-        System.out.println("Chu vi " + chuvi);
+        System.out.println("Chu Vi =" +chuvi);
     }
-    public void inDientich(){
-        System.out.println("Dien tich " + dientich);
+    public void indientich(){
+        System.out.println("DIen Tich = " +dientich);
     }
-    public void inThetich(){
-        System.out.println("The tich " + thetich);
+    public void inthetich(){
+        System.out.println("The tich = " +thetich);
     }
 }

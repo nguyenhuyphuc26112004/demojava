@@ -5,24 +5,30 @@ import java.util.Scanner;
 public class hinhchunhat extends hinhhoc{
     public float dai,rong;
     public hinhchunhat(){
-        ten = "Hinh Chu Nhat";
+        ten = "HInh Chu Nhat";
     }
-    public void nhapchieudai(){
+    public void nhapchieudaichieurong(){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Chieu dai =");
+        System.out.println("Chieu Dai = ");
         dai = sc.nextFloat();
-        sc.close();
-    }
-    public void nhapchieurong(){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Chieu rong =");
+        System.out.println("Chieu rong = ");
         rong = sc.nextFloat();
         sc.close();
     }
     public void tinhchuvi(){
-        chuvi = (dai + rong )* 2;
+        chuvi = 2 * (dai + rong);
     }
     public void tinhdientich(){
         dientich = dai * rong;
+    }
+    public static void main(String[] args) {
+        hinhchunhat hcn = new hinhchunhat();
+        hcn.xuatten();
+        hcn.nhapchieudaichieurong();
+        
+        hcn.tinhchuvi();
+        hcn.tinhdientich();
+        hcn.inchuvi();
+        hcn.indientich();
     }
 }

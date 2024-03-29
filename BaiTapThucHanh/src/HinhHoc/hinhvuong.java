@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class hinhvuong extends hinhchunhat{
     public hinhvuong(){
-        ten = "Hinh vuong ";
+        ten = "HInh Vuong";
     }
     public void nhapcanh(){
-        Scanner sc =new Scanner(System.in);
-        System.out.println("nhap canh");
+        Scanner sc  = new Scanner(System.in);
+        System.out.println("Canh = ");
         dai = rong = sc.nextFloat();
         sc.close();
     }
@@ -17,5 +17,15 @@ public class hinhvuong extends hinhchunhat{
     }
     public void tinhdientich(){
         dientich = dai * dai;
+    }
+    public static void main(String[] args) {
+        hinhvuong hv = new hinhvuong();
+        hv.xuatten();
+        hv.nhapcanh();
+        hv.tinhchuvi();
+        hv.tinhdientich();
+        hv.inchuvi();
+        hv.indientich();
+
     }
 }

@@ -7,17 +7,15 @@ public class person {
     public String chucvu;
 
     public void nhapthongtin(){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Ho ten: ");
+       Scanner sc= new Scanner(System.in);
+        System.out.println("Ho ten " );
         HoTen = sc.nextLine();
-        
-        System.out.println("Tuoi: ");
+        System.out.println("Tuoi " );
         tuoi = sc.nextInt();
-        System.out.println("Que quan: ");
+        System.out.println("Que quan " );
         quequan = sc.nextLine();
-        System.out.println("Chuc vu: ");
+        System.out.println("Chuc vu " );
         chucvu = sc.nextLine();
-        sc.close();
     }
     public void hienthi(){
         System.out.println("Ho ten " + HoTen);
