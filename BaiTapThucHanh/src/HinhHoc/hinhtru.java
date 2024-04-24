@@ -12,6 +12,7 @@ public class hinhtru extends hinhtron{
         Scanner sc =new Scanner(System.in);
         System.out.println("Chieu cao = ");
         chieucao = sc.nextFloat();
+        sc.close();
     }
     public void tinhthetich(){
         thetich = PI * r * r * chieucao;

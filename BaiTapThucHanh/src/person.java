@@ -16,6 +16,7 @@ public class person {
         quequan = sc.nextLine();
         System.out.println("Chuc vu " );
         chucvu = sc.nextLine();
+        sc.close();
     }
     public void hienthi(){
         System.out.println("Ho ten " + HoTen);

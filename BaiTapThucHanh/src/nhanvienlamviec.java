@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class nhanvien {
+public class nhanvienlamviec {
 
     String hoTen;
     String GioiTinh;
