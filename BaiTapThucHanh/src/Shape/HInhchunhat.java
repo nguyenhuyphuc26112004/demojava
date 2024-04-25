@@ -1,12 +1,9 @@
-package HinhHoc;
+package Shape;
 
 import java.util.Scanner;
 
-public class hinhchunhat extends hinhhoc{
-    public float dai,rong;
-    public hinhchunhat(){
-        ten = "Hinh Chu Nhat";
-    }
+public class HInhchunhat {
+    public float dai,rong,chuvi,dientich;
     public void nhapthongtin(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Chieu dai: ");
@@ -21,12 +18,15 @@ public class hinhchunhat extends hinhhoc{
     public void tinhdientich(){
         dientich = dai * rong;
     }
+    public void Inthongtin(){
+        System.out.println("Chu vi: " +chuvi);
+        System.out.println("Dien tich: " +dientich);
+    }
     public static void main(String[] args) {
-        hinhchunhat hcn = new hinhchunhat();
-        hcn.xuatten();
+        HInhchunhat hcn = new HInhchunhat();
         hcn.nhapthongtin();
         hcn.tinhchuvi();
         hcn.tinhdientich();
-        hcn.inthongtin();
+        hcn.Inthongtin();
     }
 }

@@ -23,5 +23,4 @@ public class phuongtrinhbac1 {
 
         sc.close();
     }
-    
 }

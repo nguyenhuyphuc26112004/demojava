@@ -42,4 +42,3 @@ public class person {
         pes.hienthi();
     }
 }
-

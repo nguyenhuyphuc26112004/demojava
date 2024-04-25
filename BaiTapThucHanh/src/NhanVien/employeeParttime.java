@@ -1,3 +1,5 @@
+package NhanVien;
+
 import java.util.Scanner;
 
 public class employeeParttime extends employee{
@@ -18,6 +20,7 @@ public class employeeParttime extends employee{
         employeeParttime emP = new employeeParttime();
         emP.nhapthongtin();
         emP.nhapthongtinlamviec();
+        emP.hienthi();
         emP.tinhluong();
         emP.inluong();
     }

@@ -23,10 +23,16 @@ public class QuanLyHocSinh {
         GioiTinh = sc.nextLine();
         sc.close();
     }
-    void inThongTin(){
+    public void inThongTin(){
         System.out.println("Ho Ten: " + hoTen);
         System.out.println("MSV: " + MSV);
         System.out.println("Gioi Tinh: " + GioiTinh);
     }
-
+    public static void main(String[] args) {
+        QuanLyHocSinh qlhs = new QuanLyHocSinh();
+        qlhs.nhaphoten();
+        qlhs.nhapMSV();
+        qlhs.nhapGioiTinh();
+        qlhs.inThongTin();
+    }
 }

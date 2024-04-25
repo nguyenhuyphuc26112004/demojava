@@ -20,12 +20,11 @@ public class hinhtron extends hinhhoc{
         dientich = PI * r * r;
     }
     public static void main(String[] args) {
-        hinhtron htr = new hinhtron();
-        htr.xuatten();
-        htr.nhapbankinh();
-        htr.tinhchuvi();
-        htr.tinhdientich();
-        htr.inchuvi();
-        htr.indientich();
+        hinhtron ht = new hinhtron();
+        ht.xuatten();
+        ht.nhapbankinh();
+        ht.tinhchuvi();
+        ht.tinhdientich();
+        ht.inthongtin();
     }
 }
