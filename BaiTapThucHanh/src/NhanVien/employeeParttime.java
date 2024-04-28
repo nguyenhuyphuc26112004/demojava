@@ -1,4 +1,4 @@
-package NhanVien;
+package Nhanvien;
 
 import java.util.Scanner;
 
@@ -25,3 +25,5 @@ public class employeeParttime extends employee{
         emP.inluong();
     }
 }
+
+
