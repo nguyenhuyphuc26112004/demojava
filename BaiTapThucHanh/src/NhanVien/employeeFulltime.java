@@ -14,7 +14,7 @@ public class employeeFulltime extends employee{
         TienTangca = sc.nextFloat();
         System.out.println("Thoi Gian LAm them: ");
         Thoigiamlamthem = sc.nextFloat();
-        sc.close();
+        
     }
     public void tinhluong(){
         luong = LuongCoBan + Thoigiamlamthem * TienTangca;

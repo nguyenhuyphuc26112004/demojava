@@ -8,10 +8,10 @@ public class employee extends person{
         Scanner sc = new Scanner(System.in);
         System.out.println("tg lam: ");
         tglam = sc.nextFloat();
-        sc.close();
+       
     }
     public void inluong(){
-        System.out.println("Luong = ");
+        System.out.println("Luong = " +luong);
     }
     public static void main(String[] args) {
         employee em = new employee();

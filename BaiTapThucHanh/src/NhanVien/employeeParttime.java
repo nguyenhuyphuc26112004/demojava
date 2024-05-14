@@ -11,7 +11,7 @@ public class employeeParttime extends employee{
         Thoigianlamviec = sc.nextFloat();
         System.out.println("Tien Luong 1 gio: ");
         Tienluong1gio = sc.nextFloat();
-        sc.close();
+        
     }
     public void tinhluong(){
         luong = Thoigianlamviec * Tienluong1gio;

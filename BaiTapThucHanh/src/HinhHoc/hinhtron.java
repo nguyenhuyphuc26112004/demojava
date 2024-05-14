@@ -11,7 +11,7 @@ public class hinhtron extends hinhhoc{
         Scanner sc = new Scanner(System.in);
         System.out.println("R = ");
         r = sc.nextFloat();
-        sc.close();
+        
     }
     public void tinhchuvi(){
         chuvi = 2 * PI * r;

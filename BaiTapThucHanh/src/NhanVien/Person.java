@@ -13,19 +13,19 @@ public class person {
         ten = sc.nextLine();
         System.out.println("Tuoi: ");
         Tuoi = sc.nextInt();
-        sc.close();
+        
     }
     public void nhapquequan(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Que quan: ");
         quequan = sc.nextLine();
-        sc.close();
+        
     }
     public void nhapchucvu(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Chuc vu: ");
         chucvu = sc.nextLine();
-        sc.close();
+        
     }
     public void hienthi(){
         System.out.println("Ho ten: " +ten);
