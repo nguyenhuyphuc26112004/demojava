@@ -10,7 +10,7 @@ public class HInhchunhat {
         dai = sc.nextFloat();
         System.out.println("Chieu rong: ");
         rong = sc.nextFloat();
-        
+        sc.close();
     }
     public void tinhchuvi(){
         chuvi = (dai + rong) * 2;

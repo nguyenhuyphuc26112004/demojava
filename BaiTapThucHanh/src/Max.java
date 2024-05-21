@@ -22,5 +22,7 @@ public class Max {
                 Max = arrayListMAx.get(i);
         }
         System.out.print("Phan tu lon nhat: " +Max);
+        sc.close();
     }
+    
 }

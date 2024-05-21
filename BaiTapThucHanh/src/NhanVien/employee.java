@@ -19,6 +19,6 @@ public class employee extends person{
         em.nhapquequan();
         em.nhapchucvu();
         em.hienthi();
-        em.inluong();
+        
     }
 }

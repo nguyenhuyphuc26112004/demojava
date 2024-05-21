@@ -10,7 +10,7 @@ public class Person1 {
         personID = sc.nextLine();
         System.out.println("Nhap ten: ");
         FullName = sc.nextLine();
-        
+        sc.close();
     }
 
     public void inthongtin()

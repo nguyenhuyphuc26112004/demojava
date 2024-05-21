@@ -5,7 +5,7 @@ public class hinhhoc {
     public float chuvi, dientich, thetich;
     public String ten;
     public void xuatten(){
-        System.out.println("\n " +ten);
+        System.out.println("\n" +ten);
     }
     public void inthongtin(){
         System.out.println("Chu vi: " +chuvi);
